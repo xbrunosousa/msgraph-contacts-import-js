@@ -1134,14 +1134,6 @@ babel-plugin-transform-vue-jsx@^4.0.1:
   dependencies:
     esutils "^2.0.2"
 
-babel-polyfill@^6.23.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-polyfill/-/babel-polyfill-6.26.0.tgz#379937abc67d7895970adc621f284cd966cf2153"
-  dependencies:
-    babel-runtime "^6.26.0"
-    core-js "^2.5.0"
-    regenerator-runtime "^0.10.5"
-
 babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
@@ -1778,7 +1770,7 @@ copy-webpack-plugin@^4.5.2:
     p-limit "^1.0.0"
     serialize-javascript "^1.4.0"
 
-core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.3:
+core-js@^2.4.0, core-js@^2.5.3:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
@@ -3097,13 +3089,6 @@ hash.js@^1.0.0, hash.js@^1.0.3:
 he@1.1.x, he@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
-
-hellojs@^2.0.0-4:
-  version "2.0.0-4"
-  resolved "https://registry.yarnpkg.com/hellojs/-/hellojs-2.0.0-4.tgz#81d8130334bd164edf7a323da113fee7c02a6a75"
-  dependencies:
-    babel-polyfill "^6.23.0"
-    tricks "^1.7.0"
 
 hex-color-regex@^1.1.0:
   version "1.1.0"
@@ -5357,10 +5342,6 @@ regenerate@^1.2.1, regenerate@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
 
-regenerator-runtime@^0.10.5:
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
-
 regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
@@ -6275,10 +6256,6 @@ tough-cookie@~2.3.3:
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.4.tgz#ec60cee38ac675063ffc97a5c18970578ee83655"
   dependencies:
     punycode "^1.4.1"
-
-tricks@^1.7.0:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/tricks/-/tricks-1.8.1.tgz#9c65cb833afb32de0ad9828119f061ec3f053c7d"
 
 trim-newlines@^1.0.0:
   version "1.0.0"
