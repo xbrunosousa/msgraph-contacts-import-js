@@ -1,18 +1,29 @@
 <template>
-  <div id="app">
-    <importContacts />
+  <div class="container-fluid">
+    <button @click="runMicrosoft" class="btn btn-outline-primary">{{message}}</button>
+    <vue-snotify />
+    <div :key="index" v-for="(item, index) in resposta">
+      <p>{{item.emailAddresses}}</p>
+    </div>
+    <button @click="outroTeste">Outro Teste</button>
   </div>
 </template>
 
 <script>
-import importContacts from './components/importContacts.vue'
+import importContacts from './components/mixins/importContacts.vue';
 
 export default {
   name: 'app',
+  mixins: [importContacts],
+  data() {
+    return {
+      message: 'Run'
+    };
+  },
   components: {
     importContacts
   }
-}
+};
 </script>
 
 <style lang="scss">

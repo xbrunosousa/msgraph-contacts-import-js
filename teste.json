@@ -1,0 +1,16 @@
+
+{
+  "windows": {
+    "access_token": "EwA4A61DBAAUcSSzoTJJsy+XrnQXgAKO5cj4yc8AAVLB9/7cAkSheJW4ZHChSbKvwbJXGHt5YnlENGpAeMUWAeNIFbLZ26FKaHczVOantoJ1dbEevcUVW6vhAz1VM5yO8TzsRCNxuD3iL7GArn3nHS2mKyYu9iDsdnh8efJoLjN72eJGzCBwDgZBiFRjsgOyOCMZzN0+TlfcyyWE439z2iObJUCjngNuENJRipPzd5ujvbcZOGbXMpslH/Wr5RHaEKdSvPSlJz9cgDB9zg0sThc6eFplcBILYB4MyBAYPlstRAhlwatgLgsBvBgXfjU238hqXhzHo/Hh3yxH5fJmxlQGn/Wy+W3P6umS8cs0W03w9T5pdOtaTo8wryZUnb4DZgAACK+OAda8tZeMCAJ4iasOoC0sJ0kquo5jrnab7qU9arrfH2t+jo9xgICGKRucDYgL3nXc/hyucdFYeENVNirhp1bmxySGWEgwvbRBkLZc+MKdEPebPp/M+kD6cm49SkC12XCnt1REPFcXg9/Cvh/qcPwPES4jnRXdYbd+WVwfwJexZg5WyAgG0hwIPIgsqpaBKGmHZwbA6DY2GQpmG/L9IUMdPNs1J6UPaId7v5kv82AA767etvvp0xwsejZtPE+hnyXAroQQYJDJA/jq24REULrr8jtPRZ8NCbHPwaLsLyjaPnMNWA66XCWL8gfLVzvDYDGIsGpruqgcWaFDC0sUd2vLRheuXXguruul5Vrn3nx+MQvbouwb1OB6krj0chpYjsw7z9Y5TwmsYNs/hOpzCF7Kj2oJSu6czcnwj5dczLEF0V/Uzm8Wv5QwDkuewZ3fQqlPkRsb4g2TiTmsSo+RXNXOB0yGbf6/zIhbUmzzOfus3ady4eCEXFVMITySAOgeuSXiExRd2RG6+pgpF08P/myRmqwZLDxmVhYzDfLqxP03P/5k/oqiv4LT2dwJw9jziz2RnC7a//ayBaaT47Q7GDpI7TT4+nIt4cQUH5WKIuTCMjIWbII8FS8zbrRZUMhahBsov7WM1CBtdmSU2lbW+pM61c8Z6x12YIqmGJM6KoUB/3KAYRdCkTeAxAnzpElYkzTfLQI=",
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "scope": "friends",
+    "user_id": "AAAAAAAAAAAAAAAAAAAAANx14F531UeSlgmfhqI7NKE",
+    "state": "",
+    "client_id": "837fe74f-e66b-441f-8728-088de9fc6670",
+    "network": "windows",
+    "display": "popup",
+    "redirect_uri": "http://localhost:8080/",
+    "expires": 1535244443.509
+  }
+}
