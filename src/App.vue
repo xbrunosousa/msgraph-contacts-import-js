@@ -3,9 +3,9 @@
     <br />
     <button @click="microsoftGo" class="btn btn-outline-primary">{{message}}</button>
     <vue-snotify />
-    <!-- <div :key="index" v-for="(item, index) in resposta">
-      <p>{{item.emailAddresses}}</p>
-    </div> -->
+    <div v-for="(mail, index) in response" :key="index">
+      <label><input type="checkbox" /> {{mail}}</label>
+    </div>
   </div>
 </template>
 
