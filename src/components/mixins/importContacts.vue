@@ -1,28 +1,16 @@
 <script>
-// import hello from 'hellojs-xbrunosousa';
-// import * as hello from "./../../assets/js/hello.all.js";
 export default {
   name: 'importContacts',
-  // https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=837fe74f-e66b-441f-8728-088de9fc6670&redirect_uri=https://192.168.0.12:8080&response_type=token&scope=Contacts.Read
-
-  // https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=837fe74f-e66b-441f-8728-088de9fc6670&redirect_uri=https://192.168.0.12:8080&response_type=code&response_mode=query&scope=Contacts.Read
-
-  // https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=837fe74f-e66b-441f-8728-088de9fc6670&redirect_uri=oob&response_type=token&scope=Contacts.Read
-
   data() {
     return {
       clientId: '837fe74f-e66b-441f-8728-088de9fc6670',
-      popup: undefined,
       token: undefined,
-      tokenGetedStorage: undefined,
-      resposta: [],
       local: undefined,
-      oi: undefined
     };
   },
   mounted() {},
   methods: {
-    outroTeste() {
+    microsoftGo() {
       hello.init(
         {
           windows: this.clientId
@@ -36,19 +24,18 @@ export default {
         .login({ scope: 'Contacts.Read' })
         .then((res) => {
           this.$snotify.success('Wiiii! 👨‍💻', '');
-          this.local = JSON.parse(item);
-          console.log(this.local);
-          console.log(res);
-          let item = localStorage;
-        })
-        .catch(() => {
           setTimeout(() => {
-            // console.clear();
-          }, 100);
+            this.local = JSON.parse(item);
+            console.log(this.local);
+            console.log(res);
+            let item = localStorage;
+          }, 500);
         })
         .finally(() => {
-          console.log('​outroTeste -> ', JSON.parse(localStorage.getItem('windows')));
-          this.token = JSON.parse(localStorage.getItem('windows')).access_token;
+          setTimeout(() => {
+            this.token = JSON.parse(localStorage.getItem('windows')).access_token;
+            this.runMicrosoft();
+          }, 500);
         });
     },
     runMicrosoft() {

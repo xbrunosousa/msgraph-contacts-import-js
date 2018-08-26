@@ -1,11 +1,11 @@
 <template>
-  <div class="container-fluid">
-    <button @click="runMicrosoft" class="btn btn-outline-primary">{{message}}</button>
+  <div class="container-fluid" id="app">
+    <br />
+    <button @click="microsoftGo" class="btn btn-outline-primary">{{message}}</button>
     <vue-snotify />
-    <div :key="index" v-for="(item, index) in resposta">
+    <!-- <div :key="index" v-for="(item, index) in resposta">
       <p>{{item.emailAddresses}}</p>
-    </div>
-    <button @click="outroTeste">Outro Teste</button>
+    </div> -->
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
   mixins: [importContacts],
   data() {
     return {
-      message: 'Run'
+      message: 'Microsoft =D'
     };
   },
   components: {
