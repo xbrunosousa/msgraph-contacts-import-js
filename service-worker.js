@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.3f295d398177d64adbd96b2bae7106d3.js"
+  "precache-manifest.4104385945d31314ab1a7037d41aff91.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "msgraph-contacts-import-js"});
